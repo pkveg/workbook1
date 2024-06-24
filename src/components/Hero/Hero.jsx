@@ -8,31 +8,31 @@ const ImageList = [
   {
     id: 1,
     img: Book1,
-    title: "그의 인생 ~할 것이다 영원히 되다 바뀌다",
+    title: "His Life will forever be Changed",
     description:
-      "짜파게티 << 짜왕",
+      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
     img: Book2,
-    title: "거기 누구?",
+    title: "Who's there",
     description:
-      "어~ 형이야~",
+      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
     img: Book3,
-    title: "마지막 소년",
+    title: "Lost Boy",
     description:
-      "마지막 소년 어쩌구 저쩌구.,,,",
+      "Lost Boy, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 
 const Hero = ({ handleOrderPopup }) => {
   const [imageId, setImageId] = React.useState(Book1);
-  const [title, setTitle] = React.useState("그의 인생 ~할 것이다 영원히 되다 바뀌다");
+  const [title, setTitle] = React.useState("His Life will forever be Changed");
   const [description, setDescription] = React.useState(
-    "오늘은 내가 짜파게티 요리사"
+    "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   );
 
   const bgImage = {
@@ -65,7 +65,7 @@ const Hero = ({ handleOrderPopup }) => {
               >
                 {title}
                 <p class="bg-clip-text text-transparent bg-gradient-to-b from-primary text-right text-sm to-secondary">
-                  ~에 의해 누군가
+                  by Anonymous
                 </p>{" "}
               </h1>
               <p
@@ -81,7 +81,7 @@ const Hero = ({ handleOrderPopup }) => {
                   onClick={handleOrderPopup}
                   className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
                 >
-                  주문 지금바로
+                  Order Now
                 </button>
               </div>
             </div>

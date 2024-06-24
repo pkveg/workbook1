@@ -8,23 +8,23 @@ const ServicesData = [
   {
     id: 1,
     img: Img1,
-    title: "남자의 인생",
+    title: "His Life",
     description:
-      "드르렁~ 쿨쿨~~ 드르렁~~ ZZZ~~",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
     img: Img2,
-    title: "ㄴㄱ?",
+    title: "Who's there",
     description:
-      "쓸말 없다 이제",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
     img: Img3,
-    title: "라스트 댄스",
+    title: "Lost Boy",
     description:
-      "빅뱅 노래 좋다~",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 
@@ -36,12 +36,12 @@ const Services = ({ handleOrderPopup }) => {
         <div className="container">
           <div className="text-center mb-20 max-w-[400px] mx-auto">
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary ">
-              인기있는 책들
+              Trending Books
             </p>
-            <h1 className="text-3xl font-bold">최고 책들</h1>
+            <h1 className="text-3xl font-bold">Best Books</h1>
             <p className="text-xs text-gray-400">
-              유유유~ 마그네~~릭  <br/>
-              유유유~ 수퍼~ 이끌~~~림
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Perspiciatis delectus architecto error nesciunt,
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 md:gap-5 place-items-center">
@@ -73,7 +73,7 @@ const Services = ({ handleOrderPopup }) => {
                     className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
                     onClick={handleOrderPopup}
                   >
-                    주문 당장
+                    Order Now
                   </button>
                 </div>
               </div>

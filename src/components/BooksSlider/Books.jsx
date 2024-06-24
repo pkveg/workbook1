@@ -8,37 +8,37 @@ const booksData = [
   {
     id: 1,
     img: Book1,
-    title: "하암",
+    title: "Who's there",
     rating: 5.0,
-    author: "오찬영",
+    author: "Someone",
   },
   {
     id: 2,
     img: Book2,
-    title: "어쩌구 저쩌구",
+    title: "His Life",
     rating: 4.5,
-    author: "이건우",
+    author: "John",
   },
   {
     id: 3,
     img: Book3,
-    title: "바보",
+    title: "Lost boys",
     rating: 4.7,
-    author: "이은주",
+    author: "Lost Girl",
   },
   {
     id: 4,
     img: Book2,
-    title: "모지리",
+    title: "His Life",
     rating: 4.4,
-    author: "김영웅",
+    author: "Someone",
   },
   {
     id: 5,
     img: Book1,
-    title: "천재",
+    title: "Who's There",
     rating: 4.5,
-    author: "정선호",
+    author: "Someone",
   },
 ];
 
@@ -50,11 +50,12 @@ const Books = () => {
           {/* header */}
           <div className="text-center mb-10 max-w-[600px] mx-auto">
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-              최상단 책들 ~위하여 당신
+              Top Books for you
             </p>
-            <h1 className="text-3xl font-bold">최상단 책들</h1>
+            <h1 className="text-3xl font-bold">Top Books</h1>
             <p className="text-xs text-gray-400">
-              책책check,,,,책을 읽읍시다^_^
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Perspiciatis delectus architecto error nesciunt,
             </p>
           </div>
 
@@ -82,7 +83,7 @@ const Books = () => {
             </div>
             <div className="flex justify-center">
               <button className="text-center mt-10 cursor-pointer  bg-primary text-white py-1 px-5 rounded-md">
-                보다 모든 책들
+                View All Books
               </button>
             </div>
           </div>

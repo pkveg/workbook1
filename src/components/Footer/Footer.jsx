@@ -35,19 +35,20 @@ const Footer = () => {
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="Logo" className="max-w-[50px]" />
-              책 상점
+              Books Store
             </h1>
             <p className="">
-              어쩌구 저쩌구...{" "}
+              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Possimus, voluptate.{" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>노디아, 우따 프라디sh~</p>
+              <p>Noida, Uttar Pradesh</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+81 123456789</p>
+              <p>+91 123456789</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
@@ -67,7 +68,7 @@ const Footer = () => {
             <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  중요한 링크들
+                  Important Links
                 </h1>
                 <ul className={`flex flex-col gap-3`}>
                   {FooterLinks.map((link) => (
@@ -82,7 +83,7 @@ const Footer = () => {
             <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  링크들
+                  Links
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
@@ -97,7 +98,7 @@ const Footer = () => {
             <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  위치
+                  Location
                 </h1>
                 {/* <ul className="list-disc list-inside"> */}
                 <ul className="flex flex-col gap-3">
@@ -114,7 +115,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-center py-10 border-t-2 border-gray-300/50">
-            저작권 2024 모든 오른쪽 제공되다 || 만들다 ~와 더불어 ~에 의해 정선호
+            @copyright 2024 All rights reserved || Made with ❤️ by Dilshad
           </div>
         </div>
       </section>

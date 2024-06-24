@@ -7,27 +7,27 @@ import { FaCaretDown } from "react-icons/fa";
 const Menu = [
   {
     id: 1,
-    name: "집",
+    name: "Home",
     link: "/#",
   },
   {
     id: 2,
-    name: "최고 판매",
+    name: "Best Seller",
     link: "/#services",
   },
 ];
 
 const DropdownLinks = [
   {
-    name: "유행 책들",
+    name: "Trending Books",
     link: "/#",
   },
   {
-    name: "효자 품목",
+    name: "Best Selling",
     link: "/#",
   },
   {
-    name: "저자",
+    name: "Authors",
     link: "/#",
   },
 ];
@@ -41,7 +41,7 @@ const Navbar = ({ handleOrderPopup }) => {
             <div>
               <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
                 <img src={Logo} alt="Logo" className="w-10" />
-                책들
+                Books
               </a>
             </div>
             <div className="flex justify-between items-center gap-4">
@@ -65,7 +65,7 @@ const Navbar = ({ handleOrderPopup }) => {
                     href="/#home"
                     className="flex h-[72px] items-center gap-[2px]"
                   >
-                    빠른 링크{" "}
+                    Quick Links{" "}
                     <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
                     </span>
@@ -90,7 +90,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 onClick={() => handleOrderPopup()}
                 className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3"
               >
-                주문하다
+                Order
                 <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
               </button>
             </div>

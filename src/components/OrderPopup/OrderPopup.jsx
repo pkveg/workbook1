@@ -11,7 +11,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
             {/* Header */}
             <div className="flex items-center justify-between">
               <div>
-                <h1>주문하다 당신 책</h1>
+                <h1>Order Your Book</h1>
               </div>
               <div>
                 <IoCloseOutline
@@ -39,7 +39,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
               />
               <div className="flex justify-center">
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full ">
-                  주문 당장
+                  Order Now
                 </button>
               </div>
             </div>

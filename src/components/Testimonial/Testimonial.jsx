@@ -4,20 +4,20 @@ import Slider from "react-slick";
 const testimonialData = [
   {
     id: 1,
-    name: "오찬영",
-    text: "훠훠훠~",
+    name: "Victor",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 1,
-    name: "이한준",
-    text: "누구~~ㅎㅎㅎㅎ",
+    name: "Satya Narayan",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 1,
-    name: "김영웅",
-    text: "~~하는게 맞긴해~~ㅋㅋ",
+    name: "Sachin Tendulkar",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -67,11 +67,12 @@ const Testimonial = () => {
         <div className="container">
           <div className="text-center mb-20 max-w-[600px] mx-auto">
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-              손놈들의 한줄평
+              What our customers say
             </p>
-            <h1 className="text-3xl font-bold">모르는 단어임</h1>
+            <h1 className="text-3xl font-bold">Testimonial</h1>
             <p className="text-xs text-gray-400">
-              언포기븐~언포기븐~~
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Perspiciatis delectus architecto error nesciunt,
             </p>
           </div>
           <div
