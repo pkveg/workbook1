@@ -10,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import OrderPopup from "./components/OrderPopup/OrderPopup.jsx";
 import Books from "./components/BooksSlider/Books.jsx";
+import TopBottomButton from "./components/TopBottomButton/TopBottomButton.jsx"; // Import the new component
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -41,6 +42,7 @@ const App = () => {
       <Testimonial />
       <Footer />
       <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+      <TopBottomButton /> {/* Add the new component */}
     </div>
   );
 };
